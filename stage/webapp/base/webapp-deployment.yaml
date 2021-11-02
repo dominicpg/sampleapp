@@ -9,14 +9,15 @@ spec:
   selector:
     matchLabels:
       app: webapp
+  strategy: {}
   template:
     metadata:
       labels:
         app: webapp
     spec:
       containers:
-        - image: dominicpg/sampleapp:v1
-          name: webapp
+      - image: dominicpg/sampleapp:v1
+        name: webapp
         ports:
         - containerPort: 80
           name: webapp
