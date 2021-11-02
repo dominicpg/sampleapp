@@ -16,7 +16,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: dominicpg/sampleapp:v1
+      - image: dominicpg/sampleapp:v2
         name: webapp
         ports:
         - containerPort: 80
