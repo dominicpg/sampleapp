@@ -4,3 +4,7 @@ resources:
 - ../base
 patchesStrategicMerge:
 - webapp-deployment.yaml
+
+images:
+- name: dominicpg/sampleapp
+  newTag: v2 # {"$imagepolicy": "flux-system:sampleapp:tag"}
