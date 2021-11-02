@@ -6,4 +6,5 @@ patchesStrategicMerge:
   - webapp-deployment.yaml
 images:
   - name: dominicpg/sampleapp
+    newName: dominicpg/sampleapp
     newTag: main-f2592afe-1635868147 # {"$imagepolicy": "flux-system:sampleapp:tag"}
