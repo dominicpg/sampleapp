@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: dominicpg/sampleapp # {"$imagepolicy": "flux-system:podinfo"}
+        - image: dominicpg/sampleapp:v1
         name: webapp
         ports:
         - containerPort: 80
