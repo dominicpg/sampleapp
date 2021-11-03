@@ -7,4 +7,4 @@ patchesStrategicMerge:
 images:
   - name: dominicpg/sampleapp
     newName: dominicpg/sampleapp
-    newTag: main-b563e840-1635911747 # {"$imagepolicy": "flux-system:sampleapp:tag"}
+    newTag: main-4e70c596-1635918753 # {"$imagepolicy": "flux-system:sampleapp:tag"}
